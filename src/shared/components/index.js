@@ -1,0 +1,6 @@
+export { default as NavBar } from './NavBar'
+export { default as Features } from './Features'
+export { default as Testimonials } from './Testimonials'
+export { default as BlogPreview } from './BlogPreview'
+export { default as Footer } from './Footer'
+export { default as CardImageService } from './CardImageService'
