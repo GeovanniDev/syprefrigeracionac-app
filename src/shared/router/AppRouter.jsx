@@ -1,6 +1,6 @@
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import App from "../../App";
-import { About, Bases, Equipment, Home, NotFound, Service, SpecialProjects, Thermos } from "../pages";
+import { Bases, Contact, Equipment, Home, NotFound, Service, SpecialProjects, Thermos } from "../pages";
 
 
 export const GetAppRoutes = createBrowserRouter([
@@ -37,8 +37,8 @@ export const GetAppRoutes = createBrowserRouter([
         element: <Bases />,
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/contact",
+        element: <Contact />,
       }
     ],
     errorElement: <NotFound />,

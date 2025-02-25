@@ -114,7 +114,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink className="nav-link" to="/contact">
                   CONTACTO
                 </NavLink>
               </li>
