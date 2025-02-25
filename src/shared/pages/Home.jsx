@@ -1,10 +1,10 @@
-import { BlogPreview, Features, Testimonials } from "../components";
+import { Features, Testimonials } from "../components";
 
 export default function Home() {
   return (
     <>
       <header className="bg-dark py-5">
-        <div className="container px-5">
+        <div className="container px-5 animate__animated animate__fadeInLeftBig">
           <div className="row gx-5 align-items-center justify-content-center">
             <div className="col-lg-8 col-xl-7 col-xxl-6">
               <div className="my-5 text-center text-xl-start">
@@ -40,7 +40,7 @@ export default function Home() {
       </header>
       <Features />
       <Testimonials />
-      <BlogPreview />
+      {/* <BlogPreview /> */}
     </>
   );
 }

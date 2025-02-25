@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <>
       <section className="py-5" id="features">
-        <div className="container px-5 my-5">
+        <div className="container px-5 my-5 animate__animated animate__fadeInLeftBig">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
               <h2 className="fw-bolder mb-0">

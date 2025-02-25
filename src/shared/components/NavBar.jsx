@@ -42,17 +42,17 @@ export default function NavBar() {
                   aria-labelledby="navbarDropdownBlog"
                 >
                   <li>
-                    <NavLink className="dropdown-item" to="/Services/1">
+                    <NavLink className="dropdown-item" to="/services/1">
                       INSTALACIONES
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/Services/2">
+                    <NavLink className="dropdown-item" to="/services/2">
                       MANTENIMIENTO
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/Services/3">
+                    <NavLink className="dropdown-item" to="/services/3">
                       REFACCIONES
                     </NavLink>
                   </li>
@@ -74,14 +74,14 @@ export default function NavBar() {
                   aria-labelledby="navbarDropdownBlog"
                 >
                   <li>
-                    <a className="dropdown-item" href="blog-home.html">
+                    <NavLink className="dropdown-item" to="/equipment/1">
                       EQUIPOS A/C
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="blog-post.html">
+                    <NavLink className="dropdown-item" to="/thermo/2">
                       THERMOS
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
@@ -101,14 +101,15 @@ export default function NavBar() {
                   aria-labelledby="navbarDropdownBlog"
                 >
                   <li>
-                    <a className="dropdown-item" href="blog-home.html">
-                      CONTROLES AVAZANDOS
-                    </a>
+                    <NavLink className="dropdown-item" to="/special-projects/1">
+                      CONTROLES PERSONALIZADOS
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="blog-post.html">
-                      BASES
-                    </a>
+                  <NavLink className="dropdown-item" to="/bases/1">
+                  BASES
+                    </NavLink>
+                    
                   </li>
                 </ul>
               </li>
